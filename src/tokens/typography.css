@@ -1,0 +1,79 @@
+/* ============================================================
+   Typography Primitive Tokens
+   ============================================================ */
+
+/* ----- Font Family ----- */
+:root {
+  --font-family-pretendard: "Pretendard", sans-serif;
+  --font-family-inter: "Inter", sans-serif;
+}
+
+/* ----- Font Size ----- */
+:root {
+  --font-size-10: 10px;
+  --font-size-12: 12px;
+  --font-size-13: 13px;
+  --font-size-15: 15px;
+  --font-size-17: 17px;
+  --font-size-24: 24px;
+  --font-size-48: 48px;
+}
+
+/* ----- Font Weight ----- */
+:root {
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+/* ----- Line Height ----- */
+:root {
+  --line-height-14: 14px;
+  --line-height-16: 16px;
+  --line-height-18: 18px;
+  --line-height-28: 28px;
+  --line-height-58: 58px;
+}
+
+/* ============================================================
+   Typography Semantic Tokens — Melon Design System
+   ============================================================ */
+
+/* ----- Heading (Inter) ----- */
+:root {
+  --text-h1-font-family: var(--font-family-inter);
+  --text-h1-font-size: var(--font-size-48);
+  --text-h1-font-weight: var(--font-weight-semibold);
+  --text-h1-line-height: var(--line-height-58);
+
+  --text-h5-font-family: var(--font-family-inter);
+  --text-h5-font-size: var(--font-size-24);
+  --text-h5-font-weight: var(--font-weight-semibold);
+  --text-h5-line-height: var(--line-height-28);
+}
+
+/* ----- Body (Inter) ----- */
+:root {
+  --text-body1-font-family: var(--font-family-inter);
+  --text-body1-font-size: 16px;
+  --text-body1-font-weight: var(--font-weight-regular);
+  --text-body1-line-height: 24px;
+}
+
+/* ----- Pretendard (Melon App) ----- */
+:root {
+  --text-pretendard-semibold-font-family: var(--font-family-pretendard);
+  --text-pretendard-semibold-font-size: var(--font-size-13);
+  --text-pretendard-semibold-font-weight: var(--font-weight-semibold);
+  --text-pretendard-semibold-line-height: var(--line-height-16);
+
+  --text-pretendard-bold-font-family: var(--font-family-pretendard);
+  --text-pretendard-bold-font-size: var(--font-size-12);
+  --text-pretendard-bold-font-weight: var(--font-weight-bold);
+  --text-pretendard-bold-line-height: var(--line-height-14);
+
+  --text-pretendard-regular-font-family: var(--font-family-pretendard);
+  --text-pretendard-regular-font-size: var(--font-size-12);
+  --text-pretendard-regular-font-weight: var(--font-weight-regular);
+  --text-pretendard-regular-line-height: var(--line-height-14);
+}

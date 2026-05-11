@@ -1,0 +1,8 @@
+{
+  "codeConnect": {
+    "include": ["src/components/ui/**/*.tsx", "**/*.figma.tsx"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

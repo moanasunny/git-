@@ -1,0 +1,26 @@
+.btn[data-variant="filled"]:not(:disabled):hover {
+  background-color: var(--surface-active);
+}
+
+.btn[data-variant="filled"]:not(:disabled):active {
+  background-color: var(--surface-pressed);
+}
+
+.btn[data-variant="filled"]:not(:disabled):focus-visible {
+  outline: 2px solid var(--border-focused);
+  outline-offset: 2px;
+}
+
+.btn[data-variant="outline"]:not(:disabled):hover {
+  background-color: var(--surface-grey);
+}
+
+.btn[data-variant="outline"]:not(:disabled):active {
+  background-color: var(--surface-grey);
+  border-color: var(--border-grey);
+}
+
+.btn[data-variant="outline"]:not(:disabled):focus-visible {
+  border-color: var(--border-focused);
+  outline: none;
+}
